@@ -1,14 +1,12 @@
-# CUSTOMER LIFETIME VALUE
+# CLTV Prediction BG-NBD and Gamma-Gamma
 
-1. Data preparation
-2. Average Order Value (average_order_value = total_price / total_transaction)
-3. Purchase Frequency (total_transaction / total_number_of_customers)
-4. Repeat Rate & Churn Rate (birden fazla alışveriş yapan müşteri sayısı / tüm müşteriler)
-5. Profit Margin (profit_margin =  total_price * 0.10)
-6. Customer Value (customer_value = average_order_value * purchase_frequency)
-7. Customer Lifetime Value (CLTV = (customer_value / churn_rate) x profit_margin)
-8. Segmentation
-9. Functionalization
+
+1. Data Preperation
+2. Expected Number of Transaction with BG-NBD Model
+3. Expected Average Profit with Gamma-Gamma Model
+4. CLTV Calculations with BG-NBD and Gamma-Gamma Models
+5. Creating Segments According to CLTV
+6. Functionalization
 
 **Business Problem**: 
 An e-commerce company divides its customers into segments and wants to define marketing strategies according to these segments.
