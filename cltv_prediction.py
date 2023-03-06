@@ -75,7 +75,7 @@ def replace_with_thresholds(dataframe, variable):
 #########################
 
 
-df_ = pd.read_excel("D:/MIUUL/CRM/crmAnalytics/rfm/online_retail_II.xlsx", sheet_name="Year 2009-2010")
+df_ = pd.read_excel("location", sheet_name="Year 2009-2010")
 df = df_.copy() # if something goes wron we do not need to read the data again
                 # working on the copy
 
@@ -355,7 +355,7 @@ def create_cltv_p(dataframe, month=3):
     return cltv_final
 
 
-df2_ = pd.read_excel("D:/MIUUL/CRM/crmAnalytics/rfm/online_retail_II.xlsx", sheet_name="Year 2010-2011")
+df2_ = pd.read_excel("location", sheet_name="Year 2010-2011")
 df2 = df2_.copy()
 
 
